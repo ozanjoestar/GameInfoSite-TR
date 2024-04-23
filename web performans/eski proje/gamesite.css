@@ -1,0 +1,286 @@
+*{
+	box-sizing:border-box;
+}
+body{
+	margin:0;
+	padding:0;
+	font-family: calibri;
+	position:relative;
+	background-color:#FFD099;
+}
+html{
+	scroll-behavior: smooth;
+}
+.header{
+	margin:0 auto;
+	width:100%;	
+	height:50px;
+	display:flex;
+	align-items:center;
+	justify-content:space-between;
+	background-color:#FF9209;
+	position:fixed;
+	border-bottom:#FFD099 solid 3px;
+	z-index:101;
+}
+
+.headleft a{
+	padding: 0 15px;
+	text-decoration: none;
+	color: #fff;
+	font-size:17px;
+	font-weight: bold;	
+	transition:500ms;
+	margin-left:20px;
+
+}
+.headleft a:hover{
+	border:5px solid #888;
+	border-radius: 10px;
+	border-color:#fff;
+	color:#FF9209;
+	background-color: #fff;
+}
+i{
+	transition: 500ms;
+	color:#fff;
+	margin-left: 20px;
+	display:flex;
+	align-items:center;
+	justify-content:center;
+	margin-right:20px;
+}
+.header i:hover{
+	border:5px solid #888;
+	border-radius: 10px;
+	border-color:#fff;
+	color:#FF9209;
+	background-color: #fff;
+}
+.main{
+	width:100%;
+	height:100vh;
+	background:linear-gradient(to bottom, transparent, rgba(0,0,0)),url(mario.jpg);
+	background-repeat:no-repeat;
+	background-size:cover;
+	justify-content:center;
+	align-items:center;
+}
+.container{
+	width:40%;
+	height:calc(100vh - 150px);
+	float:right;
+	margin-right:50px;
+}
+.container h1{
+	margin-right:50px;
+	font-size:80px;
+	text-shadow:3px 5px 5px #222;
+	font-family: 'ArcadeClassic', sans-serif;
+}
+.container h3{
+	color:#fff;
+	text-align: justify;
+}
+
+::-webkit-scrollbar{
+	background: #000;
+	width:5px;
+}
+::-webkit-scrollbar-thumb{
+	background:#FF9209;
+}
+
+.mid{
+	width:100%;
+	height:150px;
+	background-color:#FF9209;
+	border-top:#FFD099 solid 3px;
+	border-bottom:#FFD099 solid 3px;
+	display:flex;
+	justify-content:space-between;
+	align-items:center;
+}
+.mid h1{
+	margin-left:50px;
+	color:#FFD099;
+}
+.telno{
+	margin-right:50px;
+	font-weight:bold;
+	font-style: italic;
+	color:#fff;
+}
+.info{
+	margin:auto;
+	width:80%;
+	height:550vh;
+	background: linear-gradient(to bottom, #FF9209, 50%, #FF2F22);
+	display:flex;
+	align-items:center;
+	flex-wrap: wrap;
+	position:relative;
+	padding-left:20px;
+}
+.gameyear{
+	width:200px;
+	height:150px;
+	margin-left:30px;
+	border:10px solid #FFD099;
+	border-radius:10%;
+	position: relative;
+	z-index:2;
+}
+.gameinfo{
+	background-color:#FFD099;
+	color:#fff;
+	width:200px;
+	height:150px;
+	border:10px solid #FFD099;
+	border-radius:10%;
+	margin-left:30px;
+	margin-top:-150px;
+	z-index:2;
+}
+.right{
+	margin-right:30px;
+}
+.year p{
+	border:10px solid #FFD099;
+	margin-left:30px;
+	border-radius:10px;
+	position:absolute;
+	color:#FF6C22;
+	font-weight:bold;
+	background-color: #FFD099;
+	width: 200px;
+}
+.yiloyunheader{
+	color:#FFD099;
+	text-decoration: underline;
+	margin-left: 40px;
+	margin-bottom:-10px;
+	font-family: 'ArcadeClassic', sans-serif;
+}
+.yiloyunp{
+	margin-left:50px;
+	width:500px;
+	background-color:#FFD099;
+	color:#FF6C22;
+}
+
+.marginbot{
+	margin-bottom:50px;
+}
+.todaysgame{
+	height:250vh;
+	width:100%;
+	background-color:#FF6C22;
+}
+.todaysgame h1{
+	margin:0 400px 10px 370px; 
+	color:#FFD099;
+	font-family: 'ArcadeClassic', sans-serif;
+	border:dashed 3px red;
+	border-bottom:none;
+	border-top: none;
+	padding:0;
+	padding-left:10px;
+}
+.todaysgame p{
+	color:#900;
+	margin:0 100px 0 100px;
+	border:dashed 3px red;
+	padding:0;
+	padding-left:10px;	
+	border-bottom:none;
+	border-top: none;
+	position: absolute;
+}
+.valorant img{
+	width:650px;
+	height:320px;
+	margin:200px 0 0 100px;
+	border:solid 10px #061;
+	border-radius:10%;
+	transition:1s;
+	z-index:100;
+	position:relative;
+
+}
+.valorant img:hover{
+	position:relative;
+	margin-left:520px;
+}
+.yazi p{
+	position:relative;
+	top:-325px;
+	left:-305px;
+	background-color:#FFD099;
+	width:400px;
+	height:320px;
+	border:solid 10px #061;
+	border-radius:10%;
+	color:#061;
+	float:left;
+}
+.yazi h1{
+	font-family: 'ArcadeClassic', sans-serif;
+	font-size:50px;
+	background-color:#FFD099;
+	color:#061;
+	position:relative;
+	border:solid 10px #061;
+	border-radius:20%;
+	right:-390px;
+	top:-500px;
+}
+.yazi small{
+	font-size:10px;
+	font-family: calibri;
+}
+.league img{
+	width:650px;
+	height:320px;
+	margin:-400px 0 0 100px;
+	border:solid 10px #061;
+	border-radius:10%;
+	transition:1s;
+	z-index:100;
+	position:relative;
+}
+.league img:hover{
+	position:relative;
+	margin-left:520px;
+}
+.bh img{
+	width:650px;
+	height:320px;
+	margin:-200px 0 0 100px;
+	border:solid 10px #061;
+	border-radius:10%;
+	transition:1s;
+	z-index:100;
+	position:relative;
+}
+.bh img:hover{
+	position:relative;
+	margin-left:520px;
+}
+
+.copyrightt{
+    position: absolute;
+    bottom: 0;
+    height:202px;
+    width: 100%;
+    background-color: #333333;
+    bottom:-200px;
+}
+
+p.copyright {
+    width: 100%;
+    color: #fff;
+    line-height: 40px;
+    font-size: 0.7em;
+    text-align: center;
+}
